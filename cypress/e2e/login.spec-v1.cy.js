@@ -1,5 +1,6 @@
 describe('Orange HRM Tests', () => {
-    it.skip('CST001-Login with Sucess', () => {
+
+  it.skip('CST001-Login with Sucess', () => {
       cy.visit('https://opensource-demo.orangehrmlive.com/web/index.php/auth/login');
       cy.get(':nth-child(2) > .oxd-input-group > :nth-child(2) > .oxd-input').type('Admin');
       cy.get(':nth-child(3) > .oxd-input-group > :nth-child(2) > .oxd-input').type('admin123');
