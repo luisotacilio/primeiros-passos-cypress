@@ -1,3 +1,6 @@
+
+import userData from '../fixtures/users/userData.json'
+
 describe('Orange HRM Tests', () => {
 
   it.skip('CST001-Login with Sucess', () => {
